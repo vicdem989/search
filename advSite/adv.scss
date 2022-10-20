@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 15vh;
+    user-select: none;
+    width: auto;
+}
+
+#advanced-search {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 575px;
+    height: 400px;
+    border: rgb(52, 53, 58) solid 5px;
+    background-color: rgb(66, 67, 73);
+    user-select: none;
+    
+    label, input {
+        font-size: 25px;
+        margin: 20px 0px 20px 0px;
+
+    }
+
+    .customSearch {
+        padding: 5px;
+    }
+
+    #submit {
+        font-size: 15px;
+        margin-left: 170px;
+        width: 140px;
+        height: 30px;
+        color: white;
+        background-color: rgb(66, 102, 114);
+        border: none;
+        border-radius: 20px;
+    }
+}

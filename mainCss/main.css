@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(32, 33, 36);
+  font-family: calibri;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  margin-top: 25vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 16px;
+  margin: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row wrap;
+  margin-top: -5vh;
+  width: auto;
+}
+#container input::-moz-placeholder {
+  font: 30px/3 calibri;
+  padding: 10px;
+}
+#container input:-ms-input-placeholder {
+  font: 30px/3 calibri;
+  padding: 10px;
+}
+#container input::placeholder {
+  font: 30px/3 calibri;
+  padding: 10px;
+}
+
+#search {
+  border: none;
+  border-radius: 20px;
+  cursor: caret;
+  width: 500px;
+  height: 50px;
+  font-size: 30px;
+}
+
+#submit {
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+  align-self: auto;
+  margin-left: 200px;
+  margin-top: 5px;
+  background-color: rgb(66, 102, 114);
+}/*# sourceMappingURL=main.css.map */
